@@ -1,0 +1,42 @@
+;* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    width: 1400px;
+    height: 850px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+#name {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    
+}
+
+#gameboard {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridblock {
+    background-color: white;
+    /* border: .1px solid black; */
+    height: 38.5px;
+    width: 38.5px;
+}
