@@ -1,42 +1,74 @@
-;* {
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-
 #container {
-    width: 1400px;
-    height: 850px;
-    background-color: red;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
+	width: 1400px;
+	height: 850px;
+	background-color: red;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	border-radius: 50px;
+	position: relative;
+	box-shadow: 4px 4px black;
 }
 
 #name {
-    color: white;
-    width: 100%;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 50px;
-    
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 50px;
 }
 
 #gameboard {
-    display: flex;
-    justify-content: center;
-    flex-flow: row;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+	display: flex;
+	justify-content: center;
+	flex-flow: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	height: 600px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: blue;
+	border: solid 1px black;
 }
 
 .gridblock {
-    background-color: white;
-    /* border: .1px solid black; */
-    height: 38.5px;
-    width: 38.5px;
+	background-color: white;
+	/* border: .1px solid black; */
+	height: 10px;
+	width: 10px;
+	z-index: 9;
+}
+
+.button {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+#buttons {
+	/* box-sizing: border-box; */
+	height: 100%;
+	position: absolute;
+	box-sizing: border-box;
+	display: flex;
+}
+
+#btn-clr {
+	margin-top: 575px;
+	margin-left: 30px;
+}
+
+#btn-size {
+	margin-left: 1210px;
+	margin-top: 575px;
 }
